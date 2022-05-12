@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;}
+body{
+    background-color: black;    
+    opacity: 0.9;
+    text-align: center;
+}
+h1{
+    font-size: 50px !important;
+}
+h2{
+    font-size: 28px !important;
+   
+}
+h4{
+    font-size: 24px !important;
+    
+}
+header{
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+    background-color: black;  
+   
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;      
+}
+nav a{      
+    text-decoration: underline;      
+}
+.herobar{ 
+    max-width: 1200px;
+    margin: 69px auto;
+    height: 700px;    
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;                     
+}
+.herobar >div{
+    width: 100%;
+    background-color: black;    
+}
+.t-cat{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.t-cat >div{     
+    margin: 10px;     
+}
+.t-cat img{
+    width: 300px;
+    height: auto;
+}
+.t-cat-name{
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+.locations{ 
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;    
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;                     
+}
+.locations >div{
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    background-color: black;    
+}
+.mid-box{
+    position: relative;
+}
+.loc-heading{
+    position:absolute;
+    width: 100%;
+    left: auto;
+    top:-90px;
+    font-size: 45px !important;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
